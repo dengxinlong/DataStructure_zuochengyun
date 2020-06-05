@@ -1,0 +1,183 @@
+6
+g
+7
+h
+14
+o
+18
+s
+19
+t
+1
+good
+---------------
+begin search
+g
+index = 6
+good
+path: 1
+h
+index = 7
+good
+path: 1
+o
+index = 14
+good
+path: 1
+s
+index = 18
+good
+path: 1
+t
+index = 19
+good
+path: 1
+1
+begin search
+g
+index = 6
+good
+path: 1
+h
+index = 7
+good
+path: 1
+o
+index = 14
+good
+path: 1
+s
+index = 18
+good
+path: 1
+t
+index = 19
+good
+path: 1
+begin search
+g
+index = 6
+good
+path: 35426960
+h
+index = 7
+good
+path: 35421424
+o
+index = 14
+good
+path: 35425808
+s
+index = 18
+good
+path: 35426080
+t
+index = 19
+good
+path: 35426352
+0
+g
+h
+o
+s
+t
+1
+g
+h
+o
+s
+t
+2
+begin search
+g
+index = 6
+good
+path: 35426962
+h
+index = 7
+good
+path: 35421426
+o
+index = 14
+good
+path: 35425810
+s
+index = 18
+good
+path: 35426082
+t
+index = 19
+good
+path: 35426354
+begin search
+g
+index = 6
+good
+path: 35426961
+h
+index = 7
+good
+path: 35421425
+o
+index = 14
+good
+path: 35425809
+s
+index = 18
+good
+path: 35426081
+t
+index = 19
+good
+path: 35426353
+1
+begin search
+g
+index = 6
+good
+path: 35426961
+h
+index = 7
+good
+path: 35421425
+o
+index = 14
+good
+path: 35425809
+s
+index = 18
+good
+path: 35426081
+t
+index = 19
+good
+path: 35426353
+begin search
+g
+index = 6
+good
+path: 35426960
+h
+index = 7
+good
+path: 35421424
+o
+index = 14
+good
+path: 35425808
+s
+index = 18
+good
+path: 35426080
+t
+index = 19
+good
+path: 35426352
+0
+g
+h
+o
+s
+t
+a
+1
