@@ -11,9 +11,19 @@ class Solution
 public:
     static void leftMinRightMax(vector<int> & nums, int value)
     {
-        for (int cur = 0, i = -1; cur < nums.size(); cur++) {
-            if (nums[cur] < value) {
-                swap(nums[++i], nums[cur]);
+        // for (int cur = 0, i = -1; cur < nums.size(); cur++) {
+        //     if (nums[cur] < value) {
+        //         swap(nums[++i], nums[cur]);
+        //     }
+        // }
+        int less = -1;
+        int equalMore = nums.size();
+        for (int i = 0; i < nums.size();) {
+            if (nums[i] < value) {
+                less++;
+                i++;
+            } else {
+                std::swap(nums[i], nums[--equalMore]);
             }
         }
     }
