@@ -29,7 +29,7 @@ public:
             Node * node = &_root;
             for (auto elem : str) {
                 int index = elem - 'a';
-                if (!(--node->_next[index]->_path)) {
+                if (!(--node->_next[index]->_path)) { // 这段代码有问题，删除结点后，后面的结点将不能访问了，存在断链情况
                     node->_next[index] = nullptr; //存在内存泄漏
                     return;
                 }
